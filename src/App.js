@@ -1,9 +1,10 @@
 import "./App.css";
+import FormCard from "./components/FormCard";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
+    <div className="card-center">
+      <FormCard></FormCard>
     </div>
   );
 }
