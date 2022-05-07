@@ -1,4 +1,5 @@
 import "./FormCard.css";
+import Button from "./Button";
 
 //Return inputs
 const FormCard = () => {
@@ -11,7 +12,7 @@ const FormCard = () => {
       <label htmlFor="">Age (Years)</label>
       <input type="text" />
       <div className="btn-center">
-        <button className="btn">Add User</button>
+        <Button></Button>
       </div>
     </form>
   );
