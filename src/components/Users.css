@@ -1,0 +1,8 @@
+.users-card {
+  width: 100%;
+}
+
+.card {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}

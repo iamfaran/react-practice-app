@@ -1,4 +1,14 @@
+.card-w-50 > div,
+.card-w-50 > form {
+  width: 40%;
+}
+
+.card-center > * {
+  margin-bottom: 30px;
+}
 .card-center {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
